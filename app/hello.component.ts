@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
     You're using: <pre>{{ window.navigator.userAgent }}</pre>
     
     <button class="bob" id="share" (click)='window.analyticsTrack($event.srcElement, "pageName", "contentName", "btnName", "dataObject")'>
-    Share
+    Call analyticsTrack()
   </button>
   `,
   styles: [`h1 { font-family: Lato; }`]
